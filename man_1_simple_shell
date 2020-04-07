@@ -1,0 +1,35 @@
+.TH man 1 "07 April 2020" "0.1" "simple_shell man page"
+
+.SH NAME
+.B simple_shell - Command interpreter that reads from Standard Input.
+
+.SH SYNOPSIS
+./hsh [options] [file]
+
+.SH DESCRIPTION
+Simple_Shell is an command language interpreter which is compatible with sh. It will execute the commands read from the standard input.
+
+.SH RETURN VALUE
+
+If it is successful, it will return 0, otherwise if it fails, it will return other number.
+
+.SH PATH
+
+All the directions will be searched in the PATH env variable.
+
+.SH OPTIONS
+.B simple_shell
+The command options will be entered after the main command, which will be followed by an space and the '-' character. 
+
+.SH EXAMPLE
+
+[command] [options]
+$ ls -l
+
+.SH SEE ALSO
+.I "holberton.h"
+
+.SH BUGS
+Not known bugs, if you find one please report to 1561@holbertonschool.com or 1235@holbertonschool.com.
+.SH AUTHORS
+Written by Juan Daniel Lopez Garcia & Juan Villegas.
