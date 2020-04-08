@@ -11,17 +11,17 @@ The Simple Shell has two modes in which it can operate
 **Interactive Mode** and **Non-Interactive Mode**
 
 In the **Interactive Mode**, the Simple Shell will show the "$" character, which is called prompt, this prompt will indicate to the user that it can write andexecute a command 
-´´´
+```
 $ ./hsh
 ($) /bin/ls
 hsh main.c shell.c
 ($)
-´´´
+```
 In the **Non-Interactive Mode**, it is requiered that the command that the user types, is piped with the command of the execution of the Simple Shell. This will initialize the Simple Shell as soon as the command is executed.
-´´´
+```
 $ echo "/bin/ls" | ./hsh
 hsh main.c shell.c test_ls_2
-´´´
+```
 Keep in mind, that in this Non-interactive Mode, the prompt will not appear after executing the command.
 
 # Requirements
@@ -61,17 +61,17 @@ Keep in mind, that in this Non-interactive Mode, the prompt will not appear afte
 # Instructions to Run the Code
 1. Clone this repository
 2. Compile the files with this command:
-´´´
+```
 gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
-´´´
+```
 3. To execute the Simple Shell in Interactive Mode, type this command in the terminal:
-´´´
+```
 ./hsh
-´´´
+```
 4. To execute the Simple Shell in the Non-Interactive Mode, type this command in the terminal:
-´´´
+```
 echo "/bin/ls" | ./hsh
-´´´
+```
 
 # Files Contained in the Repository
 
