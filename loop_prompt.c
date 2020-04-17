@@ -22,6 +22,7 @@ void print_matriz(char *av)
  */
 int main(void)
 {
+	pid_t child_pd;
 	char *buffer = NULL;
 	int stat, j = 0;
 	char *arv[] = {"/bin/ls", NULL};
@@ -36,7 +37,6 @@ int main(void)
 			print_matriz(buffer);
 		       write(STDOUT_FILENO, "$ ", 2);
 		}
-		pid_t child_pd;
 
 		child_pd = fork();
 
