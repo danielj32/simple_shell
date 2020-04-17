@@ -75,7 +75,11 @@ echo "/bin/ls" | ./hsh
 
 # Files Contained in the Repository
 
-* [**holberton.h**](./holberton.h): Contains the prototypes that we will use. 
+* [**holberton.h**](./holberton.h): Contains the prototypes that we will use.
+* [**auxfunctions.c**](./auxfunctions.c): Contains functions that will be called.
+* [**loop_prompt.c**](./loop_prompt.c): COntains the function that prints the prompt.
+* [**prntenv.c**](./prntenv.c): Contains the function that will print the env variable.
+* [**_putchar.c**](./_putchar.c): Contains the function of our own putchar.
 
 # Authors & Contact Information
 - Juan Daniel Lopez Garcia - GitHub: https://github.com/danielj32/
