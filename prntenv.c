@@ -1,5 +1,10 @@
 #include "holberton.h"
-
+/**
+ * envir - Will print env
+ * @name: variable
+ * @env: variable
+ * Return: null
+ */
 char *envir(const char *name, char **env)
 {
 	int r = 0, q = 0;
@@ -10,14 +15,14 @@ char *envir(const char *name, char **env)
 	}
 	while (env[r] != NULL)
 	{
-		while (env[r][q] == name[q]);
+		while (env[r][q] == name[q])
 		{
 			q++;
 		}
 		if (env[r][q] == '=')
 		{
 			q++;
-			return(&(env[r][q]));
+			return (&(env[r][q]));
 		}
 		r++;
 		q = 0;
