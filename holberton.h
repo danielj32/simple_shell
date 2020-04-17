@@ -29,8 +29,7 @@ int exec(char **ar, char **env, char **argv, char *line, char *nline, int j);
 int C_d(char *line);
 char **str_split(char *line);
 char *m_alloc(char *c);
-void free_all(char *line, char *nline, char**tok);
+void free_all(char *line, char *nline, char **tok);
 int ctrld(char *line);
-
 
 #endif
